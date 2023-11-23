@@ -5,13 +5,11 @@
 
 .navbar {
     list-style-type: none;
-    margin: -8px;
-    padding: 3px;
     overflow: hidden;
     background-color: #292929;
     position: fixed;
     top: 0;
-    width: 101%;
+    width: 100%;
 }
   
   .nav {
@@ -26,7 +24,12 @@
     text-align: right;
     padding: 20px 35px;
     text-decoration: none;
-    
+    transition-duration: 0.3s;
+}
+
+.navbutton:hover {
+    background-color: black;
+    color: white;
 }
 
   .navbuttonleft {
@@ -74,7 +77,7 @@
     position: absolute;
     top: 45%;
     left: 46%;
-    font-size: 16px;
+    font-size: 18px;
     transition-duration: 0.4s;
 }
 
