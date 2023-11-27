@@ -84,6 +84,40 @@
     color: white;
 }
 
-/*about.html css/*
+/*about.html css*/
 
-/*location.html css/*
+/*buy.html css*/
+
+.searchbar {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    top: 44%;
+    left: 30%;
+    position: absolute;
+    background-color: white;
+    border-radius: 60px;
+}
+
+.sbar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 8px 8px;
+    font-size: 20px;
+}
+
+.sbar button {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 8px 8px;
+    font-size: 17px;
+    position: absolute;
+    top: 20%;
+    right: 6%;
+}
