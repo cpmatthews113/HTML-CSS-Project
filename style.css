@@ -61,11 +61,38 @@
     color: white;
     position: absolute;
     top: 35%;
-    left: 50%;
+    left: 51%;
+    padding: 12px;
     transform: translate(-50%, -50%);
 }
 
+.overlay-text2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 39%;
+    left: 32%;
+    padding: 12px;
+}
+
+.overlay-text3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+}
+
 .overlay-button {
+    position: absolute;
+    top: 48%;
+    left: 46%;
+    border: none;
+}
+
+.overlay-button2 {
     background-color: #292929;
     border-radius: 12px;
     border: none;
@@ -73,7 +100,7 @@
     color: white;
     padding: 15px 32px;
     position: absolute;
-    top: 45%;
+    top: 48%;
     left: 46%;
     font-size: 18px;
     transition-duration: 0.4s;
@@ -94,8 +121,8 @@
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    top: 44%;
-    left: 30%;
+    top: 48%;
+    left: 32%;
     position: absolute;
     background-color: white;
     border-radius: 60px;
